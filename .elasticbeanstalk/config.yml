@@ -1,18 +1,18 @@
 branch-defaults:
   main:
-    environment: hello-env
+    environment: null
     group_suffix: null
 global:
-  application_name: hello
-  branch: null
+  application_name: my-flask-app
+  branch: main
   default_ec2_keyname: aws-eb
-  default_platform: Python 3.7
+  default_platform: Python 3.14 running on 64bit Amazon Linux 2023
   default_region: us-east-1
   include_git_submodules: true
   instance_profile: null
   platform_name: null
   platform_version: null
   profile: null
-  repository: null
+  repository: origin
   sc: git
   workspace_type: Application
